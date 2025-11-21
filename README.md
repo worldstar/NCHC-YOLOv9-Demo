@@ -1,5 +1,5 @@
 # YOLOv9 on NCHC
-Because the Dept of CSIE, TKU bought the GPU resources from NCHC in year 2025, to help teachers and students access this platform easily, I design this quick-start guide which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run an image classification algorithm (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. 
+Because the Dept of CSIE, TKU bought the GPU resources from NCHC in year 2025, to help teachers and students access this platform easily, I design this quick-start guide which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run YOLOv9 (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. 
 
 ## Quick-Start Steps
 ### 1. Connect to the Nano5 Server by SSH
