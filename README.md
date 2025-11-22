@@ -59,10 +59,10 @@ TWCC actually provides a very sufficient GPU resources. If you like to use older
 4. Wallet Management：https://iservice.nchc.org.tw/nchc_service/nchc_service_qa_single.php?qa_code=20
 
 ## Credits:
-1. The image classification algorithm is obtained from timm (PyTorch Image Models) 
-https://github.com/huggingface/pytorch-image-models.git
-2. Image Dataset: Diabetic Retinopathy Screening AI Computer Vision Model
-https://universe.roboflow.com/ucla-master-of-quantitative-economics/diabetic-retinopathy-screening-ai
+1. The YOLOv9 algorithm is obtained from the following GitHub repo
+https://github.com/WongKinYiu/yolov9
+2. Image Dataset: Football player dataset
+https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc
 
 ## Extra
 If you are interested in the Taiwan Computing Cloud (TWCC) with Tesla V100 GPU with a web interface, please read the slides "How to use TWCC-YOLOv9.pdf" in the Slides folder.
