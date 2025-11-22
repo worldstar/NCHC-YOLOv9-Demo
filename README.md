@@ -1,9 +1,9 @@
 # YOLOv9 on NCHC
-Because the Dept of CSIE, TKU bought the GPU resources from NCHC in year 2025, to help teachers and students access this platform easily, I design this quick-start guide which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run YOLOv9 (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. 
+Because the Dept of CSIE, TKU bought the GPU resources from NCHC in 2025, to help teachers and students access this platform easily, I designed this quick-start guide, which introduces how to use the NCHC GPU instance by Slurm. This repository shows how to run YOLOv9 (PyTorch) on NCHC Nano5 using Slurm and a Singularity container. 
 
 ## Quick-Start Steps
 ### 1. Connect to the Nano5 Server by SSH
-Please read the slides "How to use Nano5 of NCHC.pdf", particularly the Section 2.
+Please read the slides "How to use Nano5 of NCHC.pdf", particularly Section 2.
 
 ### 2. Download / Clone this Project on NCHC Nano5
 ```bash
@@ -36,7 +36,7 @@ sbatch yolov9_train.slurm
 ```
 
 ### 5. Check job status:
-We will check the job is assigned to a queue and to be executed. Besides, we will read the logs during the training.
+We will check that the job is assigned to a queue and is to be executed. Besides, we will read the logs during the training.
 
 ```bash
 squeue -u $USER
@@ -44,7 +44,7 @@ squeue -u $USER
 View logs (after job starts):
 
 ```bash
-cd pytorch-image-models
+cd NCHC-YOLOv9-Demo
 ls *.out *.err
 less JOBNAME-JOBID.out
 ```
@@ -55,10 +55,10 @@ less JOBNAME-JOBID.out
 4. Wallet Management：https://iservice.nchc.org.tw/nchc_service/nchc_service_qa_single.php?qa_code=20
 
 ## Credits:
-1. The image classification algorithm is obtain from timm (PyTorch Image Models) 
+1. The image classification algorithm is obtained from timm (PyTorch Image Models) 
 https://github.com/huggingface/pytorch-image-models.git
 2. Image Dataset: Diabetic Retinopathy Screening AI Computer Vision Model
 https://universe.roboflow.com/ucla-master-of-quantitative-economics/diabetic-retinopathy-screening-ai
 
 ## Extra
-If you are interested in the Taiwan Computing Cloud (TWCC) with Tesla V100 GPU with web interface, please read the slides "How to use TWCC-YOLOv9.pdf" in the Slides folder.
+If you are interested in the Taiwan Computing Cloud (TWCC) with Tesla V100 GPU with a web interface, please read the slides "How to use TWCC-YOLOv9.pdf" in the Slides folder.
